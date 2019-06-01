@@ -13,12 +13,6 @@ comments_dict = {"comment":[]}
 final_dict = {"text":[],
 			  "y":[]}
 
-reddit = praw.Reddit(client_id='PhsKwZb7-RhdzA',
-					 client_secret='K7DqHgmHJFQRFIxZmWoVtfkejVE',
-					 user_agent='hackthe6ix',
-					 username='kliyle',
-					 password='erlison25')
-
 subreddit = reddit.subreddit('Depression')
 
 top_subreddit = subreddit.top(limit=1000)
